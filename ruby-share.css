@@ -28,7 +28,8 @@ text-shadow:
   -1px 0 #fff9,
   0 1px #fff9,
   1px 0 #fff9, 
-  0 -1px #fff9; }
+  0 -1px #fff9;
+z-index:2; }
 
 .ruby b { 
 color:rgba(var(--alt), 0.8);
@@ -63,11 +64,10 @@ position:relative;
 background:#cacaca;
 border-radius:25px;
 height:40px; width:30px;
-z-index:1;
+z-index:-1;
 }
 input[type=radio]:checked ~ label span {
 background:rgba(var(--alt),0.9);
-border-radius:;
 z-index:5;
 }
 
