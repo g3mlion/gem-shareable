@@ -132,7 +132,7 @@ font-family:'starry';
   -webkit-font-smoothing: antialiased;
 padding:25px;
 position:absolute;
-  top:-15px; right:-30px;
+  top:0px; right:-30px;
 text-shadow:none;
 z-index:-2;
 }
