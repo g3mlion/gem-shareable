@@ -119,7 +119,7 @@ z-index:15;
 
 .ruby-rgt {
 position:absolute;
-  top:25px; right:25px;
+  top:0px; right:25px;
 width:305px;
 }
 
@@ -132,7 +132,7 @@ font-family:'starry';
   -webkit-font-smoothing: antialiased;
 padding:25px;
 position:absolute;
-  top:-30px; right:-30px;
+  top:-15px; right:-30px;
 text-shadow:none;
 z-index:-2;
 }
