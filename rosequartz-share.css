@@ -54,15 +54,17 @@ z-index:1; }
 .rose-quartz-h1:before {
 content:var(--unicode);
 font-family: 'Starry', 'cappuccicons';
+  -webkit-font-smoothing: antialiased;
 font-size:52px;
 margin:-30px -40px -30px 0px; }
 
 
 .rose-quartz-h1 .s:before {
 font-family: 'Starry', 'cappuccicons';
+  -webkit-font-smoothing: antialiased;
 font-size:52px;
 position:absolute;
- left:-1px; top:41px;
+ left:-1px; top:10px;
 }
 
 .rose-quartz-h1 span {
