@@ -56,6 +56,14 @@ content:var(--unicode);
 font-family: 'Starry', 'cappuccicons';
 font-size:52px;
 margin:-30px -40px -30px 0px; }
+
+
+.rose-quartz-h1 .s:before {
+font-family: 'Starry', 'cappuccicons';
+font-size:52px;
+margin:-30px -40px -30px 0px;
+}
+
 .rose-quartz-h1 span {
 background:rgba(var(--main), 0.5);
 border-radius:100%;
