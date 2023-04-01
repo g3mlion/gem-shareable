@@ -13,7 +13,6 @@ border:1px solid #ddd;
 border-radius:15px;
 box-shadow:1px 1px 5px #e0e0e0;
 color:#666;
-font-family:nunito;
 font-size:13.5px;
 font-weight:400;
 line-height:25px;
@@ -32,11 +31,11 @@ width:425px; }
 
 .rose-quartz b { 
 color:rgba(var(--alt), 0.8);
-font-weight:900; }
+font-weight:700; }
 .rose-quartz u { 
 border-bottom:2px solid rgba(var(--main), 0.5);
 color:#666;
-font-weight:700;
+font-weight:500;
 text-decoration:none; }
 .rose-quartz i { 
 opacity:0.6;
@@ -111,7 +110,7 @@ width:225px; }
 .rose-quartz-ct .user-tagged {
 color:rgba(var(--main), 0.75);
 font-size:11px;
-font-weight:900;
+font-weight:700;
 line-height:17px;
 display:inline;
 position:relative;
