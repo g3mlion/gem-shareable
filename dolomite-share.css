@@ -27,11 +27,11 @@ width:475px;
 
 .dolomite b { 
 color:rgba(var(--alt), 0.8);
-font-weight:900; }
+font-weight:700; }
 .dolomite u { 
 border-bottom:2px solid rgba(var(--main), 0.5);
 color:#666;
-font-weight:700;
+font-weight:500;
 text-decoration:none; }
 .dolomite i { 
 opacity:0.6;
@@ -85,14 +85,14 @@ position:relative;
 }
 .dolomite-dst {
 font-size:12px;
-font-weight:700;
+font-weight:500;
 border-top:2px solid #ddd7;
 margin:5px -10px -10px;
 padding:5px 5px 0px;
 text-align:right;
 opacity:0.75;
 }
-.dolomite-dst b { font-weight:900!important; }
+.dolomite-dst b { font-weight:700!important; }
 
 .dolomite a.user-tagged { 
 color:#9998;
