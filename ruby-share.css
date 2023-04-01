@@ -16,7 +16,6 @@ background:#f4f4f4;
 border:1px solid #ddd;
 box-shadow:1px 1px 5px #e0e0e0;
 color:#666;
-font-family:nunito;
 font-size:15px;
 font-weight:400;
 height:575px; width:600px;
@@ -33,11 +32,11 @@ z-index:2; }
 
 .ruby b { 
 color:rgba(var(--alt), 0.8);
-font-weight:900; }
+font-weight:700; }
 .ruby u { 
 border-bottom:2px solid rgba(var(--main), 0.5);
 color:#666;
-font-weight:700;
+font-weight:600;
 text-decoration:none; }
 .ruby i { 
 opacity:0.6;
@@ -102,7 +101,7 @@ background:rgba(var(--main),0.75);
 border-radius:15px 15px 0px 0px;
 color:#eee;
 font-size:11px;
-font-weight:900;
+font-weight:700;
 padding:5px 15px 3px;
 position:absolute;
   bottom:0px; right:25px;
@@ -145,7 +144,7 @@ background-image:linear-gradient(to bottom right,
 -webkit-text-fill-color:transparent;
 background-size:100%;
 font-size:28px;
-font-weight:900;
+font-weight:700;
 padding:15px 0px 0px;
 text-shadow:none;
 }
@@ -179,7 +178,7 @@ position:absolute;
 border-bottom:2px solid rgba(var(--alt), 0.3);
 color:#888;
 display:inline-block;
-font-weight:900;
+font-weight:700;
 margin:2.5px;
 text-decoration:none; }
 
