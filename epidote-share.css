@@ -58,6 +58,7 @@ width:265px;
 .epidote-tab label {  /* UP TO 12 TABS*/
 background:#666;
 border-radius:80px;
+cursor: crosshair;
 display:inline-block;
 margin:20px 5px 0px;
 opacity:1;
