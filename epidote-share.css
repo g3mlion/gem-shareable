@@ -68,7 +68,7 @@ text-align:center;
 transition:all ease-in-out 0.4s;
 z-index:15; }
 
-input[type=radio]:checked ~ label {
+.epidote-tab input[type=radio]:checked ~ label {
 background:#eee;
 transition:all ease-in-out 0.4s; }
 
