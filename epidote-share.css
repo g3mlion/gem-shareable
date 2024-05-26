@@ -49,7 +49,7 @@ content:'';
 padding:25px;
 position:absolute;
   top:0px; right:0px;
-z-index:5;
+z-index:1;
 width:265px;
 }
 
@@ -64,13 +64,14 @@ margin:20px 5px 0px;
 padding:5px;
 position:relative;
   right:-371px;
-text-align:center;
 transition:all ease-in-out 0.4s;
-z-index:15; }
+z-index:20; }
 
 .epidote-tab input[type=radio]:checked ~ label {
-background:#eee;
-transition:all ease-in-out 0.4s; }
+background:#ddd;
+transition:all ease-in-out 0.4s;
+position:relative;
+z-index:20; }
 
 
 .epidote-in {
