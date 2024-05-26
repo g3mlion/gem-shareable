@@ -1,0 +1,212 @@
+/* EPIDOTE — plotter
+coded & designed by BOO
+ALL RIGHTS RESERVED 2024 - PRESENT */
+
+#boo {
+  --main:133, 189, 186;
+  --alt:230, 160, 97; }
+
+#temp {
+  --main:160, 153, 208;
+  --alt:94, 96, 136; }
+
+.epidote {
+background:#fbfbfb;
+background-image:
+    linear-gradient(to right, #eee7 1px, transparent 1px),
+    linear-gradient(to bottom, #eee7 1px, transparent 1px);
+background-size: 40px 40px;
+background-position: -5px -5px;
+border:1px solid #e5e5e5;
+color:#444;
+font-family:quicksand;
+font-size:15px;
+font-weight:400;
+height:570px; width:670px;
+line-height:18px;
+margin:20px auto;
+overflow:hidden;
+padding:0px;
+position:relative;
+text-align:left; }
+
+.epidote-wrap {
+height:570px; width:670px;
+position:relative; }
+
+.epidote:before {
+background:#444;
+content:'';
+padding:10px;
+position:absolute;
+  top:0px; left:0px;
+z-index:5;
+}
+
+.epidote:after {
+background:#444;
+content:'';
+padding:25px;
+position:absolute;
+  top:0px; right:0px;
+z-index:5;
+width:265px;
+}
+
+.epidote-tab { display:inline-block; }
+.epidote-tab input[type=radio] { display:none; }
+.epidote-tab label {  /* UP TO 12 TABS*/
+background:#666;
+border-radius:80px;
+display:inline-block;
+color:transparent;
+margin:20px 5px 0px;
+padding:5px;
+position:relative;
+  right:-371px;
+text-align:center;
+transition:all ease-in-out 0.4s;
+z-index:15; }
+
+input[type=radio]:checked ~ label {
+background:#eee;
+transition:all ease-in-out 0.4s; }
+
+
+.epidote-in {
+background:transparent;
+line-height:23.5px;
+opacity:0;
+padding:20px;
+position:absolute;
+  top:0px; bottom:0px;
+  left:0px; right:0px;
+transform:translateY(20px); transform:translateX(-100%);
+transition: opacity 0.3s ease-in, transform 0.5s ease-in-out;
+  transition-delay: 0.3s;
+ z-index:0; }
+input[type=radio]:checked ~ label ~ .epidote-in {
+opacity:1;
+transform:translateY(0px); transform:translateX(0%);
+transition: opacity 0.2s ease-in, transform 0.5s ease-in-out;
+z-index:2; }
+
+.epidote-icon {
+background-image:linear-gradient(to bottom, 
+  rgba(var(--main), 0.6) 45%,
+  rgb(var(--alt)));
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+font-family:'starry';
+  -webkit-font-smoothing:antialiased;
+font-size:48px;
+font-weight:100!important;
+position:absolute;
+  bottom:150px; left:295px;
+z-index:5;
+}
+
+.epidote-hov {
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+height:400px; width:250px;
+position:absolute;
+  top:70px; right:65px;
+}
+
+.epidote-lnx a {
+display:inline-block;
+content:'+';
+background:#444;
+color:#ddd;
+font-size:24px;
+font-weight:100;
+line-height:100%;
+padding:10px;
+position:absolute;
+  bottom:85px; right:50px;
+text-decoration:none;
+text-shadow: 
+  -1px 0 rgba(var(--main),0.3),
+  0 1px rgba(var(--main),0.3),
+  1px 0 rgba(var(--main),0.3), 
+  0 -1px rgba(var(--main),0.3);
+}
+
+.epidote-nm {
+background-image:linear-gradient(to bottom, 
+  rgba(var(--main), 0.6) 45%,
+  rgb(var(--alt)));
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+background-size:100%;
+font-family:lobster two;
+font-size:40px;
+font-weight:700;
+line-height:100%;
+padding:15px 20px 15px;
+width:45%;
+}
+
+.epidote-blrb {
+font-weight:500;
+height:275px; width:47%;
+overflow:auto;
+padding:0px 20px;
+padding-right:5px;
+}
+.epidote-blrb b { 
+color:rgba(var(--main),0.9);
+font-weight:700; }
+.epidote-blrb u { 
+border-bottom:2px solid rgba(var(--alt),0.35);
+color:#666;
+font-weight:600;
+text-decoration:none; }
+.epidote-blrb i { 
+opacity:0.8;
+font-weight:500;
+text-shadow:none; }
+
+
+.epidote-blrb::-webkit-scrollbar {
+background:#e2e2e2;
+border:0px;
+height:1px;
+width:1px; }
+.epidote-blrb::-webkit-scrollbar-thumb {
+background:rgba(var(--alt),0.8);
+border:0px; }
+
+.epidote-xtra {
+background:#444;
+color:#ddd;
+font-size:14.5px;
+line-height:20px;
+padding:20px;
+height:80px; width:350px;
+position:absolute;
+  bottom:20px; left:0px;
+}
+
+.epidote-xtra a {
+background:rgba(var(--main),0.35);
+border-radius:5px;
+color:#eee;
+display:inline-block;
+margin-bottom:1px;
+padding:0px 5px 1px;
+text-decoration:none;
+text-shadow: 
+  -1px 0 #0004,
+  0 1px #0004,
+  1px 0 #0004, 
+  0 -1px #0004; }
+.epidote-xtra b {
+font-weight:600;
+text-shadow: 
+  -1px 0 rgba(var(--main),0.3),
+  0 1px rgba(var(--main),0.3),
+  1px 0 rgba(var(--main),0.3), 
+  0 -1px rgba(var(--main),0.3); }
