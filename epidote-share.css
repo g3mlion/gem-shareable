@@ -61,17 +61,25 @@ border-radius:80px;
 display:inline-block;
 color:transparent;
 margin:20px 5px 0px;
+opacity:1;
 padding:5px;
 position:relative;
   right:-371px;
 transition:all ease-in-out 0.4s;
-z-index:20; }
+z-index:20!important; }
 
-.epidote-tab input[type=radio]:checked ~ label {
-background:#ddd;
-transition:all ease-in-out 0.4s;
+.epidote input[type=radio]:checked ~ label {
+background:#ddd!important;
+border-radius:80px;
+display:inline-block;
+color:transparent;
+margin:20px 5px 0px;
+opacity:1;
+padding:5px;
 position:relative;
-z-index:20; }
+  right:-371px;
+transition:all ease-in-out 0.4s;
+z-index:20!important; }
 
 
 .epidote-in {
